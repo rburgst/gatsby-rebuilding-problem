@@ -38,7 +38,7 @@ It appears that the pages are being regenerated for every single image.
 ### Solution
 
 A workaround is to use the `sourceNodes` lifecycle and load all images there.
-Thanks a lot to @sanderploegsma for providing the correct solution!
+Thanks a lot to [@sanderploegsma](https://github.com/sanderploegsma) for providing the correct solution!
 
 More info can be found here:
 

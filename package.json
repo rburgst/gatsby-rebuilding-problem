@@ -16,7 +16,7 @@
     "gatsby-source-filesystem": "^2.3.1",
     "gatsby-source-graphql": "^2.5.1",
     "gatsby-transformer-sharp": "^2.5.2",
-    "graphql": "^15.0.0",
+    "graphql": "^14.6.0",
     "graphql-tag": "^2.10.3",
     "makepromise": "^3.2.0",
     "node-fetch": "^2.6.0",

@@ -22,7 +22,13 @@ exports.createPages = async ({ actions, graphql }) => {
   await createPosts({ actions, graphql })
 }
 
-exports.sourceNodes = async ({ actions, getCache, store, reporter }) => {
+exports.sourceNodes = async ({
+  actions,
+  createNodeId,
+  getCache,
+  store,
+  reporter,
+}) => {
   const { createNode } = actions
   const link = createHttpLink({
     uri,

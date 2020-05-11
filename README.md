@@ -35,6 +35,13 @@ The pages are being regenerated 4 times.
 
 It appears that the pages are being regenerated for every single image.
 
+### Solution
+
+Not sure how to fix this, but it seems unavoidable for now, see:
+
+- https://github.com/gatsbyjs/gatsby/issues/20083
+- https://github.com/gatsbyjs/gatsby/issues/15906
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">

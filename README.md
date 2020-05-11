@@ -1,3 +1,40 @@
+# Sample Gatsby wpgraphql demonstrating rebuilding issues
+
+this is a sample repository to demonstrate a problem in gatsby when
+using `yarn develop` (i.e. `gatsby develop`).
+
+As soon as an image resolver is added, the pages get regenerated
+many many times.
+
+The image resolver is more or less the code documented at
+
+https://www.gatsbyjs.org/docs/schema-customization/#feeding-remote-images-into-gatsby-image
+
+To reproduce do the following
+
+```bash
+yarn install
+yarn develop
+```
+
+now watch the output.
+
+### Expected
+
+the output
+
+```
+create POSTS ======== =
+```
+
+should only appear once.
+
+### Actual
+
+The pages are being regenerated 4 times.
+
+It appears that the pages are being regenerated for every single image.
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
